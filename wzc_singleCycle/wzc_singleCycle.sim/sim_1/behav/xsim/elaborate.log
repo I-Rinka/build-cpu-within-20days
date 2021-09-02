@@ -1,0 +1,33 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Senior/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 455fa5e013ee4380b32c70260420fb91 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'switch' is not connected on this instance [C:/Users/I_Rin/Desktop/2021Practice/wzc_singleCycle/wzc_singleCycle.srcs/sim_1/new/testbench.v:13]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.fetch
+Compiling module xil_defaultlib.decode
+Compiling module xil_defaultlib.execute
+Compiling module xil_defaultlib.mycpu
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="a...
+Compiling module xil_defaultlib.inst_rom
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.FDRE_default
+Compiling module unisims_ver.RAM256X1S
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.LUT6
+Compiling module xil_defaultlib.data_ram_spram
+Compiling module xil_defaultlib.data_ram_dist_mem_gen_v8_0_13_sy...
+Compiling module xil_defaultlib.data_ram_dist_mem_gen_v8_0_13
+Compiling module xil_defaultlib.data_ram
+Compiling module xil_defaultlib.confreg
+Compiling module xil_defaultlib.single_cycle
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav

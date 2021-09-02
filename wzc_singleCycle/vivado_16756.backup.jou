@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri Aug 27 10:00:18 2021
+# Process ID: 16756
+# Current directory: C:/Users/I_Rin/Desktop/2021Practice/wzc_singleCycle
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10896 C:\Users\I_Rin\Desktop\2021Practice\wzc_singleCycle\wzc_singleCycle.xpr
+# Log file: C:/Users/I_Rin/Desktop/2021Practice/wzc_singleCycle/vivado.log
+# Journal file: C:/Users/I_Rin/Desktop/2021Practice/wzc_singleCycle\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/I_Rin/Desktop/2021Practice/wzc_singleCycle/wzc_singleCycle.xpr
+update_compile_order -fileset sources_1export_ip_user_files -of_objects  [get_files c:/Users/I_Rin/Desktop/2021Practice/机器码生成/fibonaci.coe] -no_script -reset -force -quiet
+remove_files  c:/Users/I_Rin/Desktop/2021Practice/机器码生成/fibonaci.coe
+remove_files  c:/Users/I_Rin/Desktop/2021Practice/机器码生成/fibonaci.coe

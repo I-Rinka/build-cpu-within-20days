@@ -1,0 +1,24 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/I_Rin/Desktop/2021Practice/wzc_singleCycle/wzc_singleCycle.srcs/sources_1/new/ip/data_ram/data_ram_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_ram
+INFO: [VRFC 10-311] analyzing module data_ram_dist_mem_gen_v8_0_13
+INFO: [VRFC 10-311] analyzing module data_ram_dist_mem_gen_v8_0_13_synth
+INFO: [VRFC 10-311] analyzing module data_ram_spram
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/I_Rin/Desktop/2021Practice/wzc_singleCycle/wzc_singleCycle.srcs/sources_1/new/ip/inst_rom/sim/inst_rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module inst_rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/I_Rin/Desktop/2021Practice/wzc_singleCycle/wzc_singleCycle.srcs/sources_1/new/confreg/confreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module confreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/I_Rin/Desktop/2021Practice/wzc_singleCycle/wzc_singleCycle.srcs/sources_1/new/decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/I_Rin/Desktop/2021Practice/wzc_singleCycle/wzc_singleCycle.srcs/sources_1/new/execute.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module execute
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/I_Rin/Desktop/2021Practice/wzc_singleCycle/wzc_singleCycle.srcs/sources_1/new/fetch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fetch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/I_Rin/Desktop/2021Practice/wzc_singleCycle/wzc_singleCycle.srcs/sources_1/new/mycpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mycpu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/I_Rin/Desktop/2021Practice/wzc_singleCycle/wzc_singleCycle.srcs/sources_1/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/I_Rin/Desktop/2021Practice/wzc_singleCycle/wzc_singleCycle.srcs/sources_1/new/single_cycle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module single_cycle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/I_Rin/Desktop/2021Practice/wzc_singleCycle/wzc_singleCycle.srcs/sim_1/new/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
