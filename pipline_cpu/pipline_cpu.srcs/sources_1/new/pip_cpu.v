@@ -1,0 +1,39 @@
+`timescale 1ns / 1ps
+
+module pip_cpu(
+    input clk,
+    input rst_n
+    );
+
+wire [31:0] instr_rom_addr;
+wire [31:0] instr_rom_rd;
+wire [31:0] data_ram_rd;
+wire [31:0] data_ram_we;
+wire [31:0] data_ram_wd;
+wire [31:0] data_ram_addr;
+
+mycpu _mycpu(
+    .clk(clk),
+    .rst_n(rst_n),
+    .cpu_instr_addr(instr_rom_addr),
+    .cpu_instr(instr_rom_rd),
+    
+    .cpu_mem_rd(data_ram_rd),
+    .cpu_mem_we(data_ram_we),
+    .cpu_mem_wd(data_ram_wd),
+    .cpu_mem_addr(data_ram_addr)
+    );
+
+inst_rom _inst_rom(
+    .a(instr_rom_addr[11:2]),
+    .spo(instr_rom_rd)
+);
+
+    data_ram data_ram_4k(
+        .a(data_ram_addr[11:2]),                           // input wire [9 : 0] a
+        .d(data_ram_wd),                                  // input wire [31 : 0] d
+        .clk(clk),                                        // input wire clk
+        .we(data_ram_we),                                // input wire we
+        .spo(data_ram_rd)                             // output wire [31 : 0] spo
+    );
+endmodule

@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../pipline_cpu.srcs/sources_1/ip/inst_rom/sim/inst_rom.v" \
+"../../../../pipline_cpu.srcs/sources_1/new/mycpu/fetch.v" \
+"../../../../pipline_cpu.srcs/sources_1/new/mycpu/fetch_decode.v" \
+"../../../../pipline_cpu.srcs/sources_1/new/mycpu/mycpu.v" \
+"../../../../pipline_cpu.srcs/sources_1/new/pip_cpu.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
