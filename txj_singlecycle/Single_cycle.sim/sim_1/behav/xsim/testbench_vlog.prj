@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../Single_cycle.srcs/sources_1/new/mycpu" --include "../../../../Single_cycle.srcs/sources_1/new" \
+"../../../../../../bitmips_experiments-master/lab3/single_cycle/single_cycle.srcs/sources_1/new/ip/data_ram/sim/data_ram.v" \
+"../../../../../../bitmips_experiments-master/lab3/single_cycle/single_cycle.srcs/sources_1/new/ip/inst_rom/sim/inst_rom.v" \
+"../../../../Single_cycle.srcs/sources_1/new/mycpu/alu.v" \
+"../../../../Single_cycle.srcs/sources_1/new/mycpu/control.v" \
+"../../../../Single_cycle.srcs/sources_1/new/mycpu/mycpu.v" \
+"../../../../Single_cycle.srcs/sources_1/new/mycpu/pc.v" \
+"../../../../Single_cycle.srcs/sources_1/new/mycpu/regfile.v" \
+"../../../../Single_cycle.srcs/sources_1/new/single_cycle.v" \
+"../../../../Single_cycle.srcs/sim_1/new/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
