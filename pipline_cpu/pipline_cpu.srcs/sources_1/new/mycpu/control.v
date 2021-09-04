@@ -23,11 +23,11 @@ module control(
 
     output [31:0] con_alu1,
     output [31:0] con_alu2,
-    output [31:0] con_imm32
+    output [32:0] con_imm32
     );
     reg [31:0] reg_alu1;
     reg [31:0] reg_alu2;
-    reg [31:0] reg_imm32;
+    reg [32:0] reg_imm32;
     reg reg_alu_jmp_e ;
 
     reg reg_reg_we;

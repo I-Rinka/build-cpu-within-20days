@@ -1,0 +1,18 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING in testbench._single_cyclc.data_ram_4k.inst at time                    0 ns: 
+Reading from out-of-range address. Max address in testbench._single_cyclc.data_ram_4k.inst is        1023
+WARNING in testbench._single_cyclc.data_ram_4k.inst at time               135000 ns: 
+Reading from out-of-range address. Max address in testbench._single_cyclc.data_ram_4k.inst is        1023
+WARNING in testbench._single_cyclc.data_ram_4k.inst at time               175000 ns: 
+Reading from out-of-range address. Max address in testbench._single_cyclc.data_ram_4k.inst is        1023
+WARNING in testbench._single_cyclc.data_ram_4k.inst at time               215000 ns: 
+Reading from out-of-range address. Max address in testbench._single_cyclc.data_ram_4k.inst is        1023
+WARNING in testbench._single_cyclc.data_ram_4k.inst at time               255000 ns: 
+Reading from out-of-range address. Max address in testbench._single_cyclc.data_ram_4k.inst is        1023
+WARNING in testbench._single_cyclc.data_ram_4k.inst at time               295000 ns: 
+Reading from out-of-range address. Max address in testbench._single_cyclc.data_ram_4k.inst is        1023
+WARNING in testbench._single_cyclc.data_ram_4k.inst at time               345000 ns: 
+Reading from out-of-range address. Max address in testbench._single_cyclc.data_ram_4k.inst is        1023

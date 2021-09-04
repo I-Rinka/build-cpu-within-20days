@@ -12,7 +12,7 @@ module mycpu(
 
     input [31:0] cpu_mem_rd,
 
-    output [31:0] cpu_mem_we,
+    output cpu_mem_we,
 
     output [31:0] cpu_mem_wd,
     output [31:0] cpu_mem_addr
@@ -94,8 +94,8 @@ decode_control _decode_control(
     .dc_in_reg_rd1(cpu_reg_rd1),
     .dc_in_reg_rd2(cpu_reg_rd2),
     
-    .pc_val(cpu_pc_val),
-    .pc_reg(cpu_pc_val_pre),
+    // .pc_val(cpu_pc_val),
+    // .pc_reg(cpu_pc_val_pre),
 
     .dc_out_instr(cpu_instr_thd),
     .dc_out_uins(cpu_uins_thd),
