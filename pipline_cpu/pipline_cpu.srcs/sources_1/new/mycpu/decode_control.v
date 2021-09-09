@@ -16,11 +16,11 @@ module decode_control(
     output [4:0] dc_out_uins,
     output [1:0] dc_out_conflict,
     output [31:0] dc_out_reg_rd1,
-    output [31:0] dc_out_reg_rd2,
+    output [31:0] dc_out_reg_rd2
     // output reg con_jmp_e
 
-    input [31:0] pc_val,
-    output reg [31:0] pc_reg
+    // input [31:0] pc_val,
+    // output reg [31:0] pc_reg
     
     );
     reg [31:0] reg_instr;
@@ -45,9 +45,9 @@ module decode_control(
     //     endcase
     // end
 
-    always @(posedge clk or negedge rst_n) begin
-        pc_reg<=pc_val;
-    end
+    // always @(posedge clk or negedge rst_n) begin
+    //     pc_reg<=pc_val;
+    // end
 
     always @(posedge clk or negedge rst_n) begin
         if(!rst_n)

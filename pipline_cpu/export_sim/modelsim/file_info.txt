@@ -1,8 +1,0 @@
-dist_mem_gen_v8_0.v,verilog,dist_mem_gen_v8_0_13,../../pipline_cpu.ip_user_files/ipstatic/simulation/dist_mem_gen_v8_0.v,
-inst_rom.v,verilog,xil_defaultlib,../../pipline_cpu.srcs/sources_1/new/ip/inst_rom/sim/inst_rom.v,
-fetch.v,verilog,xil_defaultlib,../../pipline_cpu.srcs/sources_1/new/mycpu/fetch.v,
-fetch_decode.v,verilog,xil_defaultlib,../../pipline_cpu.srcs/sources_1/new/mycpu/fetch_decode.v,
-mycpu.v,verilog,xil_defaultlib,../../pipline_cpu.srcs/sources_1/new/mycpu/mycpu.v,
-pip_cpu.v,verilog,xil_defaultlib,../../pipline_cpu.srcs/sources_1/new/pip_cpu.v,
-testbench.v,verilog,xil_defaultlib,../../pipline_cpu.srcs/sim_1/new/testbench.v,
-glbl.v,Verilog,xil_defaultlib,glbl.v
