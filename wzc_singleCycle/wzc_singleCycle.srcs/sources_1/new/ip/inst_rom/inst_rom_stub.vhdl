@@ -1,10 +1,10 @@
 -- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
--- Date        : Fri Aug 27 12:22:38 2021
+-- Date        : Sun Oct  3 19:31:14 2021
 -- Host        : Y7000P-Octo-Rinka running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode synth_stub
---               C:/Users/I_Rin/Desktop/2021Practice/wzc_singleCycle/wzc_singleCycle.srcs/sources_1/new/ip/inst_rom/inst_rom_stub.vhdl
+--               C:/Users/I_Rin/Desktop/2021Practice/build-cpu-within-20days/wzc_singleCycle/wzc_singleCycle.srcs/sources_1/new/ip/inst_rom/inst_rom_stub.vhdl
 -- Design      : inst_rom
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7a35tcsg324-1

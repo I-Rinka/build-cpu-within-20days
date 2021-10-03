@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/I_Rin/Desktop/2021Practice/wzc_singleCycle/wzc_singleCycle.runs/inst_rom_synth_1'
+HD_PWD='C:/Users/I_Rin/Desktop/2021Practice/build-cpu-within-20days/wzc_singleCycle/wzc_singleCycle.runs/inst_rom_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
