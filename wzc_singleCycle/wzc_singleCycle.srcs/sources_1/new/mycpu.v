@@ -93,6 +93,7 @@ decode DCD(
        );
 
 assign reg_wd=(union_opcode!=`_LW)? alu_result:data_ram_rdata;
+assign data_ram_wen=(union_opcode==`_SW)? 1:0;
 assign data_ram_wdata=reg_rd2;
 assign data_ram_addr=alu_result;
 

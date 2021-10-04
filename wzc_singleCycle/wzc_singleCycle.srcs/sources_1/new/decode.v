@@ -131,7 +131,7 @@ always @(*)
         end
       `_LW:
         begin
-          DCD_out_wtreg_addr=rs;
+          DCD_out_wtreg_addr=rt;
           DCD_out_data1=DCD_in_reg1_data;
           DCD_out_data2=sign_ext_imm16;
           DCD_reg_we=1;
@@ -186,6 +186,8 @@ function [5:0] GetEXEOP(input [5:0] opcode,input [5:0] funcode);
         GetEXEOP=`_J;
       `OP_BEQ :
         GetEXEOP=`_BEQ;
+      `OP_ADDIU :
+        GetEXEOP=`_ADDIU;
       default:
         GetEXEOP=`_STALL;
     endcase
